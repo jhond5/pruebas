@@ -5,4 +5,4 @@ var blBoolean = true; // Comentarios
 var arArray = [1, "Valor 2", true];
 var arArray2 = new Array(1, "Valor 2", false);
 
-console.log("Prueba de" + arArray2[2]);
+console.log("Prueba de " + arArray2[2]);
