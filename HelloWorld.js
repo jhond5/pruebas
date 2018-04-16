@@ -11,3 +11,9 @@ console.log("Prueba de " + arArray2[2]);
 
 console.log("Prueba 2");
 
+var arMyArray1 = [];
+arMyArray1 [3] = "Prueba";
+
+console.console.log(arMyArray1);
+
+
