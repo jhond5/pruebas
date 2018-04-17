@@ -14,6 +14,47 @@ console.log("Prueba 2");
 var arMyArray1 = [];
 arMyArray1 [3] = "Prueba";
 
-console.console.log(arMyArray1);
+console.log(arMyArray1);
+
+// Trabajo de Pilas con Push y Pop.
+var myStack = [];
+
+myStack.push(1);
+myStack.push(2);
+myStack.push(3);
+myStack.push(4);
+myStack.push(5);
+
+console.log(myStack);
+
+var number;
+var total = myStack.length;
+for (number = 0; number < total; number++) {
+    console.log(myStack.pop());
+}
+
+// Shifh y un Shift para trabajar como una Cola combinando con Push
+// Pues se devuelve en el mismo orden en que se hace PUSH
+var myQueue = [];
+myQueue.push("A");
+myQueue.push("B");
+myQueue.push("C");
+
+console.log(myQueue.shift());
+console.log(myQueue.shift());
+console.log(myQueue.shift());
+
+// Unshift will add ITEMS to the beggining of the Array[]
+var myArray = [1, 2, 3];
+myArray.unshift(0);
+console.log(myArray);       // will print out 0,1,2,3
+
+// To remove a part of an array: Splice
+var myArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+var splice = myArray.splice(3, 5);
+
+console.log("Splice array example")
+console.log(splice);        // will print out 3,4,5,6,7
+console.log(myArray);       // will print out 0,1,2,8,9
 
 
