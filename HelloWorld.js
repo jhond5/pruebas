@@ -57,4 +57,15 @@ console.log("Splice array example")
 console.log(splice);        // will print out 3,4,5,6,7
 console.log(myArray);       // will print out 0,1,2,8,9
 
+// Operadores: Adición: +
+// To subtract, multiply and divide two numbers, use the minus (-), asterisk (*) and slash (/) signs.
+// % modular. mod.
+//  instead of typing myNumber = myNumber / 2, you can type myNumber /= 2 ( /= *=  -= += %=)
+// Math module math.abs() absolute value math.exp() e to the power math.pow(x,y) power x on y math.floor removes fraction part of number, Math.random()
+
+if (confirm("Are you John Smith?")) {
+    console.log("Hello John, how are you?");
+} else {
+    console.log("Then what is your name?");
+}
 
