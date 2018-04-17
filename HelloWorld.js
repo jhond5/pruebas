@@ -70,4 +70,35 @@ if (confirm("Are you John Smith?")) { // Confirm pops out a confirmation chart.
     console.log("Then what is your name?");
 }
 
-// == to evaluate truth in an IF, <, >  inequality, && and on if, || or on If, ! is NOT.
+// == to evaluate truth in an IF, <, >  inequality, && and on if, || or on If, ! is NOT.(!notTrue)
+
+var rank = "Commander";
+switch (rank) {
+    case "Private":
+    case "Sergeant":
+        console.log("You are not authorized."); // Both Private and Sergeant trigger this message.
+        break;
+    case "Commander":
+        console.log("Hello commander! what can I do for you today?");
+        break;
+    case "Captain":
+        console.log("Hello captain! I will do anything you wish.");
+        break;
+    default:
+        console.log("I don't know what your rank is.");
+        break;
+}
+
+function checkNumber(myNumber) {
+    // TODO: write your code here
+    if (myNumber == 42) {
+        console.log("correct");
+    }
+    else {
+        console.log("incorrect");
+    }
+}
+
+checkNumber(3);
+checkNumber(7);
+checkNumber(42);
