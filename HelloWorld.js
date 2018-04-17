@@ -63,9 +63,11 @@ console.log(myArray);       // will print out 0,1,2,8,9
 //  instead of typing myNumber = myNumber / 2, you can type myNumber /= 2 ( /= *=  -= += %=)
 // Math module math.abs() absolute value math.exp() e to the power math.pow(x,y) power x on y math.floor removes fraction part of number, Math.random()
 
-if (confirm("Are you John Smith?")) {
+// Condicionales.
+if (confirm("Are you John Smith?")) { // Confirm pops out a confirmation chart.
     console.log("Hello John, how are you?");
 } else {
     console.log("Then what is your name?");
 }
 
+// == to evaluate truth in an IF, <, >  inequality, && and on if, || or on If, ! is NOT.
