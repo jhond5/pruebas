@@ -28,8 +28,8 @@ myStack.push(5);
 console.log(myStack);
 
 var number;
-var total = myStack.length;
-for (number = 0; number < total; number++) {
+//var total = myStack.length;
+for (number = 0; number < myStack.length; number++) {
     console.log(myStack.pop());
 }
 
@@ -102,3 +102,32 @@ function checkNumber(myNumber) {
 checkNumber(3);
 checkNumber(7);
 checkNumber(42);
+
+var i;
+for ( i = 1; i<10; i++){
+    cosole.log("Prueba " + i);
+}
+
+var myArray = ["A", "B", "C"];
+for (var i = 0; i < myArray.length; i++) {
+    console.log("The member of myArray in index " + i + " is " + myArray[i]);
+}
+
+var i = 99;
+while (true) {
+    console.log(i + " bottles of beer on the wall");
+    i -= 1;
+    if (i == 95) {
+        break;
+    }
+}
+
+//Continue Skips inner code
+for (var i = 0; i < 100; i++) {
+    // check that the number is even
+    if (i % 2 == 0) {
+        continue;
+    }
+    // if we got here, then i is odd.
+    console.log(i + " is an odd number.");
+}
