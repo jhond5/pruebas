@@ -104,8 +104,11 @@ checkNumber(7);
 checkNumber(42);
 
 var i;
-for ( i = 1; i<10; i++){
-    cosole.log("Prueba " + i);
+
+//For Loop
+for ( i = 1; i<10; i++)
+{
+    console.log("Prueba " + i);
 }
 
 var myArray = ["A", "B", "C"];
