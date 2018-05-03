@@ -1,3 +1,4 @@
+// Variables Definitions
 var vcVarchar = "Prueba HELLO WORLD";
 var nuNumber = 123;
 var blBoolean = true; // Comentarios
@@ -5,12 +6,13 @@ var blBoolean = true; // Comentarios
 var arArray = [1, "Valor 2", true];
 var arArray2 = new Array(1, "Valor 2", false);
 
+// Console Printing
 console.log("Prueba de " + arArray2[2]);
 
-//cimment
-
+//Comment
 console.log("Prueba 2");
 
+//Array Tests
 var arMyArray1 = [];
 arMyArray1 [3] = "Prueba";
 
@@ -28,7 +30,8 @@ myStack.push(5);
 console.log(myStack);
 
 var number;
-//var total = myStack.length;
+
+//For loop with POP test!
 for (number = 0; number < myStack.length; number++) {
     console.log(myStack.pop());
 }
@@ -71,7 +74,6 @@ if (confirm("Are you John Smith?")) { // Confirm pops out a confirmation chart.
 }
 
 // == to evaluate truth in an IF, <, >  inequality, && and on if, || or on If, ! is NOT.(!notTrue)
-
 var rank = "Commander";
 switch (rank) {
     case "Private":
@@ -89,6 +91,7 @@ switch (rank) {
         break;
 }
 
+// Function definition
 function checkNumber(myNumber) {
     // TODO: write your code here
     if (myNumber == 42) {
@@ -111,11 +114,13 @@ for ( i = 1; i<10; i++)
     console.log("Prueba " + i);
 }
 
+// Array with For Loop
 var myArray = ["A", "B", "C"];
 for (var i = 0; i < myArray.length; i++) {
     console.log("The member of myArray in index " + i + " is " + myArray[i]);
 }
 
+// While Loop
 var i = 99;
 while (true) {
     console.log(i + " bottles of beer on the wall");
