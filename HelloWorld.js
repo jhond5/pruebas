@@ -140,3 +140,41 @@ for (var i = 0; i < 100; i++) {
     console.log(i + " is an odd number.");
 }
 //Learning with my love about git and github
+
+//Objects in JavaScript
+var emptyObject = {};
+var personObject =
+{
+    firstName   :   "John",
+    lastName    :   "Cuervo"
+};
+// Adressing objects with "." or "[]"
+personObject.age = 23;
+personObject["salary"] = 14000; // Adding by addressing new properties to the object.
+
+// Iterate on an Object:
+for (var member in personObject) {
+    if (personObject.hasOwnProperty(member)) { // Get property by property the information
+        console.log("the member " + member + " of personObject is " + personObject[member])
+    }
+}
+
+// Functions --> Easy Greet Function
+function fnuGreet(sbName)
+{
+    return "Hello "  + sbName + "!!!";
+}
+
+console.log(fnuGreet("Juaquin"));
+
+// Asigning the result to a variable, you can Use parameters Too..
+var fnuGreet2 = function (name) {
+    return "Hello " + name + "!";
+}
+
+console.log(fnuGreet2("Naingolandres"));      // prints out Hello Eric!
+
+// Diferent Pop-Up Boxes
+//confirm("Hi!"); // Aceptar Cancelar i suppose this one can be assigned too, need to check
+//prompt("Bye!"); // Insert Data --> Can be asigned
+//alert("Hello"); // Just Aceptar
