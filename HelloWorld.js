@@ -178,3 +178,15 @@ console.log(fnuGreet2("Naingolandres"));      // prints out Hello Eric!
 //confirm("Hi!"); // Aceptar Cancelar i suppose this one can be assigned too, need to check
 //prompt("Bye!"); // Insert Data --> Can be asigned
 //alert("Hello"); // Just Aceptar
+
+var Process = {
+    sbNombre    : "Faiber",
+    nuEdad      : 45,
+    fuNombreEdad (){
+        return this.sbNombre + ", Edad:" + this.nuEdad;
+    }
+};
+
+var MiProceso = new Process();
+var resultado = MiProceso.fuNombreEdad();
+console.log(resultado);
